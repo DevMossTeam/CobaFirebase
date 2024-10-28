@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117388665724",
+    "project_id": "cobafirebase-9b2ae",
+    "storage_bucket": "cobafirebase-9b2ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117388665724:android:ca17688a8a6331e3a93af9",
+        "android_client_info": {
+          "package_name": "com.devmoss.cobafirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7GwSL8gC1LZj22fNebz4KrKGWyh6CUW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
