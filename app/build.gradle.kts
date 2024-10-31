@@ -41,12 +41,14 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
     implementation("com.google.firebase:firebase-database")
     implementation("com.google.firebase:firebase-analytics")
+    implementation ("com.google.firebase:firebase-storage-ktx")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.storage.ktx)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

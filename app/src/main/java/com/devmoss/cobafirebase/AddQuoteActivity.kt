@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.FirebaseDatabase
 
-class AddActivity : AppCompatActivity() {
+class AddQuoteActivity : AppCompatActivity() {
 
     private lateinit var editTextQuote: EditText
     private lateinit var editTextAuthor: EditText
@@ -15,7 +15,7 @@ class AddActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_add)
+        setContentView(R.layout.activity_add_quotes)
 
         editTextQuote = findViewById(R.id.editTextQuote)
         editTextAuthor = findViewById(R.id.editTextAuthor)
