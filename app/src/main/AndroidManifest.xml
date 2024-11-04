@@ -15,7 +15,7 @@
 
         <!-- Main Activity Declaration -->
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,13 +23,22 @@
             </intent-filter>
         </activity>
 
-        <!-- AddActivity Declarations -->
+        <!-- Register Activity Declaration -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+
+        <!-- Main Activity Declaration -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- Other Activity Declarations -->
         <activity
             android:name=".AddImageActivity"
             android:exported="true" />
         <activity
             android:name=".AddQuoteActivity"
             android:exported="true" />
-
     </application>
 </manifest>

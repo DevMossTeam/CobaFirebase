@@ -20,8 +20,10 @@ class MainActivity : AppCompatActivity() {
         // Enable edge-to-edge content display
         WindowCompat.setDecorFitsSystemWindows(window, false)
 
-        // Set up FloatingActionButton and its click listener
+        // Initialize the FloatingActionButton
         floatingActionButton = findViewById(R.id.floatingActionButton)
+
+        // Set up FloatingActionButton click listener
         floatingActionButton.setOnClickListener { view ->
             showPopupMenu(view)
         }
@@ -36,14 +38,12 @@ class MainActivity : AppCompatActivity() {
             when (item.title) {
                 "Add Quote" -> {
                     // Start activity for adding a quote
-                    val intent = Intent(this, AddQuoteActivity::class.java)
-                    startActivity(intent)
+                    startActivity(Intent(this, AddQuoteActivity::class.java))
                     true
                 }
                 "Add Image" -> {
                     // Start activity for adding an image
-                    val intent = Intent(this, AddImageActivity::class.java)
-                    startActivity(intent)
+                    startActivity(Intent(this, AddImageActivity::class.java))
                     true
                 }
                 else -> false
